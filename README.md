@@ -1,2 +1,0 @@
-# KBRA
-KBRA code screen

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KBRA Code Screen</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <script type="text/javascript" src="scripts/BellCounter.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
+    </head>
+    <body onload="onPageLoad()">
+    <h2>KBRA Code Screen<br />- <i>the bell indeed tolls for thee!</i></h2>
+
+        <div id="testCases"></div>
+
+        <div>Free-Form Input:</div>
+        <div>Start Time: <input type="text" id="inputText1"></div>
+        <div>End Time: <input type="text" id="inputText2"></div>
+        <div>
+            <button id="button1">Calculate Bell Rings</button>
+        </div>
+
+        <div>Output:<br />
+            <textarea id="outputText" rows="10" cols="60"></textarea><br />
+            <button id="clearOutputButton">Clear Output</button>
+            <button id="clearAllButton">Clear All</button>
+        </div>
+    </body>
+</html>
